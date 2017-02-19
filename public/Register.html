@@ -1,0 +1,19 @@
+<div ng-app="myApp" ng-controller="formCtrl">
+<b><font size=”16px”>Register for GenreMeet</font></b>
+  <form novalidate ng-submit="submit()">
+
+    <br> First Name
+    <input type="text" ng-model="$scope.firstName"><br>
+
+    <br> Last Name
+    <input type="text" ng-model="$scope.lastName">
+
+    <br> <br> Username
+    <input type="text" ng-model="$scope.username">
+
+    <br> <br> Password 
+    <input type="text" ng-model="$scope.password">
+    <br> <br>
+    <button ng-click="Submit">Submit</button>
+  </form>
+</div>
